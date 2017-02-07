@@ -132,11 +132,11 @@ class MainWindow(QtGui.QMainWindow):
 
 			try:
 				outputFile = open(FILE_NAME, 'wb')
-			except IOError:
-				pass
+				writer.write(outputFile)
+				outputFile.close()
 				
-			writer.write(outputFile)
-			outputFile.close()
+			except IOError:
+				pass		
 
 		try:
 			pdf.close()
