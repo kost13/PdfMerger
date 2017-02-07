@@ -1,0 +1,70 @@
+QMainWindow{
+	background-color: #f0f0f0;
+}
+
+QPushButton{
+	border: none;
+	color: #828282;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+QPushButton:hover{
+	color: #4b5f83;
+}
+
+
+QPushButton#deleteButton{
+	width: 32px;
+	height: 32px;
+	background-image: url("delete.png");
+	background-repeat: no-repeat;
+}
+
+QPushButton#upButton{
+	width: 32px;
+	height: 32px;
+	background-image: url("arrow-up.png");
+	background-repeat: no-repeat;
+}
+
+
+QPushButton#upButton:disabled{
+	background-image: url("arrow-up-disabled.png");
+}
+
+QPushButton#downButton{
+	width: 32px;
+	height: 32px;
+	background-image: url("arrow-down.png");
+	background-repeat: no-repeat;
+}
+
+QPushButton#downButton:disabled{
+	background-image: url("arrow-down-disabled.png");
+}
+
+QLabel#directoryLabel{
+	height: 32px;
+	color: #414141;
+	font-size: 11px;
+}
+
+QCheckBox#checkBox{
+	height: 32px;
+	color: #414141;
+	font-size: 14px;
+}
+
+
+QLabel#fileSizeLabel{
+	height: 32px;
+	color: #2a2a2a;
+	font-size: 12px;
+}
+
+QMessageBox{
+	background-color: #fff;
+	color: red;
+}
