@@ -27,7 +27,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(&quot;folder.png&quot;);
+     <string notr="true">background-image: url(&quot;images/folder.png&quot;);
 background-repeat: no-repeat;
 background-position: left;
 </string>
@@ -52,7 +52,7 @@ background-position: left;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(&quot;file.png&quot;);
+     <string notr="true">background-image: url(&quot;images/file.png&quot;);
 background-repeat: no-repeat;
 background-position: left;</string>
     </property>
@@ -79,7 +79,7 @@ background-position: left;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(&quot;merge.png&quot;);
+     <string notr="true">background-image: url(&quot;images/merge.png&quot;);
 background-repeat: no-repeat;
 background-position: left;</string>
     </property>
@@ -103,7 +103,7 @@ background-position: left;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(&quot;quit.png&quot;);
+     <string notr="true">background-image: url(&quot;images/quit.png&quot;);
 background-repeat: no-repeat;
 background-position: left;</string>
     </property>
