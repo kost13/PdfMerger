@@ -1,4 +1,4 @@
-#copyright 2017 Łukasz Kostrzewa
+#copyright 2017 Lukasz Kostrzewa
 
 import sys, os, PyPDF2
 from PyQt4 import QtGui, QtCore, uic
