@@ -4,6 +4,8 @@ It uses graphical interface, built with PyQt4.
 
 Program uses modules: sys, os, operator, PyPDF2 and PyQt4.
 
+Installer made with [Inno Setup](http://www.jrsoftware.org/isinfo.php)
+
 # License
 This software is distributed under [MIT license](https://opensource.org/licenses/mit-license.php)
 Information about graphics license can be found in images directory.
